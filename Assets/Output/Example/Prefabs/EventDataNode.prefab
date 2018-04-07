@@ -49,6 +49,7 @@ MonoBehaviour:
     - functionName: OnIdleUpdate
       normalizedTime: 0
       paramType: 2
+      skillType: 0
       intParam: 0
       floatParam: 3.1415925
       stringParam: 
@@ -65,6 +66,7 @@ MonoBehaviour:
     - functionName: OnLeftFootGrounded
       normalizedTime: 0.60048723
       paramType: 1
+      skillType: 0
       intParam: -1
       floatParam: 0
       stringParam: 
@@ -76,6 +78,7 @@ MonoBehaviour:
     - functionName: OnRightFootGrounded
       normalizedTime: 0.94640684
       paramType: 1
+      skillType: 0
       intParam: 1
       floatParam: 0
       stringParam: 
@@ -92,6 +95,7 @@ MonoBehaviour:
     - functionName: OnJumpStarted
       normalizedTime: 0.30816078
       paramType: 4
+      skillType: 0
       intParam: 0
       floatParam: 0
       stringParam: 
@@ -103,6 +107,7 @@ MonoBehaviour:
     - functionName: OnJumpGrounded
       normalizedTime: 0.48945147
       paramType: 3
+      skillType: 0
       intParam: 0
       floatParam: 0
       stringParam: OK
@@ -114,6 +119,7 @@ MonoBehaviour:
     - functionName: JumpEndCritical
       normalizedTime: 0.6329114
       paramType: 0
+      skillType: 0
       intParam: 0
       floatParam: 0
       stringParam: 
@@ -121,6 +127,18 @@ MonoBehaviour:
       condition:
         conditions: []
       critical: 1
+      isEnable: 1
+    - functionName: MessageName
+      normalizedTime: 0.8509485
+      paramType: 0
+      skillType: 0
+      intParam: 0
+      floatParam: 0
+      stringParam: 
+      boolParam: 0
+      condition:
+        conditions: []
+      critical: 0
       isEnable: 1
   lastEdit: {fileID: 9100000, guid: c1f5594a6bfeb0b4f97965ff3759272a, type: 2}
 --- !u!1001 &100100000
