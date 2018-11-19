@@ -60,24 +60,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Output\EventSystem\Editor\EditorInternalClassWrapper.cs" />
-    <Compile Include="Assets\Output\EventSystem\Editor\MecanimEventDataTransfer.cs" />
-    <Compile Include="Assets\Output\EventSystem\Editor\MecanimEventEditor.cs" />
-    <Compile Include="Assets\Output\EventSystem\Editor\MecanimEventEditorPopup.cs" />
-    <Compile Include="Assets\Output\EventSystem\Editor\MecanimEventEmitterInspector.cs" />
-    <Compile Include="Assets\Output\EventSystem\Editor\MecanimEventEmitterWithDataInspector.cs" />
-    <Compile Include="Assets\Output\EventSystem\Editor\MecanimEventInspector.cs" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\SkillEditor\EventSystem\Editor\EditorInternalClassWrapper.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\Editor\MecanimEventDataTransfer.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\Editor\MecanimEventEditor.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\Editor\MecanimEventEditorPopup.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\Editor\MecanimEventEmitterInspector.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\Editor\MecanimEventEmitterWithDataInspector.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\Editor\MecanimEventInspector.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

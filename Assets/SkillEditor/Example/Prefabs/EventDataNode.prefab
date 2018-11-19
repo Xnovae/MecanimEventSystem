@@ -3,9 +3,9 @@
 --- !u!1 &100000
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 400000}
   - component: {fileID: 11400000}
@@ -19,7 +19,7 @@ GameObject:
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -32,7 +32,7 @@ Transform:
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
@@ -52,6 +52,18 @@ MonoBehaviour:
       skillType: 0
       intParam: 0
       floatParam: 3.1415925
+      stringParam: 
+      boolParam: 0
+      condition:
+        conditions: []
+      critical: 0
+      isEnable: 1
+    - functionName: MessageName
+      normalizedTime: 0.48579547
+      paramType: 0
+      skillType: 0
+      intParam: 0
+      floatParam: 0
       stringParam: 
       boolParam: 0
       condition:
@@ -140,6 +152,23 @@ MonoBehaviour:
         conditions: []
       critical: 0
       isEnable: 1
+  - animatorController: {fileID: 9100000, guid: 042914e107241244896b36a14ff15f88,
+      type: 2}
+    layer: 1
+    stateNameHash: -182204067
+    events:
+    - functionName: MessageName
+      normalizedTime: 0.5627823
+      paramType: 0
+      skillType: 0
+      intParam: 0
+      floatParam: 0
+      stringParam: 
+      boolParam: 0
+      condition:
+        conditions: []
+      critical: 0
+      isEnable: 1
   lastEdit: {fileID: 9100000, guid: c1f5594a6bfeb0b4f97965ff3759272a, type: 2}
 --- !u!1001 &100100000
 Prefab:
@@ -149,6 +178,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1

@@ -67,6 +67,7 @@ public class MecanimEventEditorPopup : EditorWindow
             EditorGUILayout.EndHorizontal();
 
             eventTemp.functionName = EditorGUILayout.TextField("Message", eventTemp.functionName);
+            //后续去掉参数类型，因为是单一参数，不能满足，改成根据技能类型传不同的参数类
             eventTemp.skillType = (SkillActionType)EditorGUILayout.EnumPopup("Skill Action Type", eventTemp.skillType);
             eventTemp.paramType = (MecanimEventParamTypes)EditorGUILayout.EnumPopup("Parameter Type", eventTemp.paramType);
 

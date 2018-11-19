@@ -60,30 +60,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Output\EventSystem\MecanimEvent.cs" />
-    <Compile Include="Assets\Output\EventSystem\MecanimEventData.cs" />
-    <Compile Include="Assets\Output\EventSystem\MecanimEventEmitter.cs" />
-    <Compile Include="Assets\Output\EventSystem\MecanimEventEmitterWithData.cs" />
-    <Compile Include="Assets\Output\EventSystem\MecanimEventManager.cs" />
-    <Compile Include="Assets\Output\EventSystem\MecanimEventSetupHelper.cs" />
-    <Compile Include="Assets\Output\Example\Scripts\IdleRunJump.cs" />
-    <Compile Include="Assets\Output\Example\Scripts\IdleRunJumpExample.cs" />
-    <Compile Include="Assets\Output\Example\Scripts\MessageReceiverExample.cs" />
-    <Compile Include="Assets\Output\Example\Scripts\MessageReceiverJumpExample.cs" />
-    <Compile Include="Assets\Output\Example\Scripts\ThirdPersonCamera.cs" />
-    <None Include="Assets\Output\Changes.txt" />
-    <None Include="Assets\Output\Tutorial2.txt" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\SkillEditor\EventSystem\MecanimEvent.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\MecanimEventData.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\MecanimEventEmitter.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\MecanimEventEmitterWithData.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\MecanimEventManager.cs" />
+    <Compile Include="Assets\SkillEditor\EventSystem\MecanimEventSetupHelper.cs" />
+    <Compile Include="Assets\SkillEditor\Example\Scripts\IdleRunJump.cs" />
+    <Compile Include="Assets\SkillEditor\Example\Scripts\IdleRunJumpExample.cs" />
+    <Compile Include="Assets\SkillEditor\Example\Scripts\MessageReceiverExample.cs" />
+    <Compile Include="Assets\SkillEditor\Example\Scripts\MessageReceiverJumpExample.cs" />
+    <Compile Include="Assets\SkillEditor\Example\Scripts\ThirdPersonCamera.cs" />
+    <None Include="Assets\SkillEditor\Changes.txt" />
+    <None Include="Assets\SkillEditor\Tutorial2.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>J:/Xnovae/MecanimEventSystem/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
