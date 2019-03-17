@@ -101,7 +101,7 @@ public class AvatarPreviewWrapper
 
     public void OnDestroy()
     {
-        method_OnDestroy.Invoke(instance, null);
+        method_OnDestroy?.Invoke(instance, null);
     }
 
     public void DoAvatarPreview(Rect rect, GUIStyle background)

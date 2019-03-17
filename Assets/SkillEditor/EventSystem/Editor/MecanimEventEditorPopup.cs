@@ -69,6 +69,15 @@ public class MecanimEventEditorPopup : EditorWindow
             eventTemp.functionName = EditorGUILayout.TextField("Message", eventTemp.functionName);
             //后续去掉参数类型，因为是单一参数，不能满足，改成根据技能类型传不同的参数类
             eventTemp.skillType = (SkillActionType)EditorGUILayout.EnumPopup("Skill Action Type", eventTemp.skillType);
+
+            switch (eventTemp.skillType)
+            {
+                case SkillActionType.ShakeCamera:
+                    eventTemp.shakeCameraData.shakeMode = EditorGUILayout.IntField("ShakeMode", eventTemp.shakeCameraData.shakeMode);
+                    eventTemp.shakeCameraData.shakeTime = EditorGUILayout.FloatField("ShakeTime", eventTemp.shakeCameraData.shakeTime);
+                    break;
+            }
+
             eventTemp.paramType = (MecanimEventParamTypes)EditorGUILayout.EnumPopup("Parameter Type", eventTemp.paramType);
 
             switch (eventTemp.paramType)
@@ -129,6 +138,10 @@ public class MecanimEventEditorPopup : EditorWindow
         {
             eventEditing.normalizedTime = eventTemp.normalizedTime;
             eventEditing.functionName = eventTemp.functionName;
+            eventEditing.skillType = eventTemp.skillType;
+            eventEditing.shakeCameraData = eventTemp.shakeCameraData;
+            eventEditing.shakeCameraData.shakeTime = eventTemp.shakeCameraData.shakeTime;
+            eventEditing.shakeCameraData.shakeMode = eventTemp.shakeCameraData.shakeMode;
             eventEditing.paramType = eventTemp.paramType;
             eventEditing.intParam = eventTemp.intParam;
             eventEditing.floatParam = eventTemp.floatParam;

@@ -105,6 +105,9 @@ public class MecanimEvent
 
     private EventContext context;
 
+
+    public ShakeCameraData shakeCameraData = new ShakeCameraData();
+
     public void SetContext(EventContext context)
     {
         this.context = context;
@@ -248,4 +251,10 @@ public enum SkillActionType
     WeaponShower,           // 显示或隐藏武器，比如将武器扔出武器，这时需要隐藏武器，再将武器从怪物身上拔下，这时需要显示武器。
     ChangeSpeed,            // 改变动画速度，比如加速角色动作
     Movement,               // 改变角色位置，瞬移、冲刺、击退、浮空、击飞等
+}
+
+public class ShakeCameraData
+{
+    public int shakeMode;
+    public float shakeTime;
 }
